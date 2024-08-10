@@ -1,0 +1,83 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #3b82f6;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 2rem;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-user img {
+  width: 2rem; 
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.navbar-login {
+  background-color: white;
+  color: #3b82f6;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Flexbox Utilities */
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Dropdown Menu Styles */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-300 {
+  border-color: #d1d5db;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
